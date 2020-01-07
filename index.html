@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>EMBEBIDOS</title>
+</head>
+<body>
+
+<h1>Embebidos</h1>
+<p>##</p>
+<button id = 'LED11'type="button" onclick="LED1();">
+LED1 ON!</button>
+<button type="button" onclick="location.assign(/LED1_OFF');">
+LED1_OFF!</button>
+<button type="button" onclick="location.assign('/LED1_OFF');">
+LED1_OFF!</button>
+
+<script>
+et=document.getElementById("led 1");
+console.log('hola');
+function myFunction() {
+  
+}
+function LED1(){
+ console.log(et.innerText);	
+ location.assign('/LED1_OFF');
+ et.innerText='LED OFF';
+}
+function updateLed(led,val){
+
+document.getElementById("led 1").innerText=val;
+}
+</script>
+</body>
+</html>
