@@ -28,7 +28,7 @@ class myHandler(BaseHTTPRequestHandler):
 		nombre=self.path.split('/')[-1]
 		datos=''
 		if self.path=="/":  #127.0.0.1:5000/
-			self.path="index.html" #127.0.0.1:5000/index.html
+			nombre="index.html" #127.0.0.1:5000/index.html
 		try:
 			#Check the file extension required and
 			#set the right mime type
